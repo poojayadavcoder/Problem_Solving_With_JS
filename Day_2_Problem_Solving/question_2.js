@@ -1,12 +1,12 @@
 function checkNum(n){
   if(n<0){
-    console.log("Negative")
+    return "Negative"
   }
   else if(n>0){
-    console.log("Positive")
+    return "Positive"
   }
   else{
-    console.log("Zero")
+    return "Negative"
   }
 }
 checkNum(0)
